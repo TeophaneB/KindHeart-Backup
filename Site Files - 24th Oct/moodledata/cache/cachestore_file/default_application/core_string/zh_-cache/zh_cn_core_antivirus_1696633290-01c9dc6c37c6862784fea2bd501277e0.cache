@@ -1,0 +1,1 @@
+a:8:{s:15:"actantivirushdr";s:21:"可用防病毒插件";s:11:"antiviruses";s:15:"防病毒插件";s:17:"antivirussettings";s:21:"管理防病毒插件";s:22:"configantivirusplugins";s:69:"请选择你希望使用的防病毒插件，并在应用中使用。";s:10:"datastream";s:6:"数据";s:12:"emailsubject";s:23:"{$a} :: 防病毒通知";s:16:"privacy:metadata";s:48:"反病毒系统不会存储任何个人信息。";s:10:"virusfound";s:52:"病毒检查器发现{$a->item}已被病毒感染！";}

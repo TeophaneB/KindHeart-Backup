@@ -1,0 +1,49 @@
+.image-container-will {
+      position: relative;
+      overflow: hidden;
+    }
+
+  .image-container-will img {
+      max-width: 80%; 
+      height: auto; 
+      display: block; 
+      margin: 0 auto; 
+    }
+
+    .input-container-will {
+      position: absolute;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .input-field-1-will {
+      top: 20%;
+      left: 10%;
+    }
+
+    .input-field-2-will {
+      top: 20%;
+      left: 50%;
+    }
+
+    .input-field-3-will {
+      top: 50%;
+      left: 10%;
+    }
+
+    .input-field-4-will {
+      top: 50%;
+      left: 50%;
+    }
+
+    .input-field-5-will {
+      top: 80%;
+      left: 10%;
+    }
+
+    .input-field-6-will {
+      top: 80%;
+      left: 50%;
+    }

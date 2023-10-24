@@ -1,0 +1,15 @@
+@font-face{
+	font-family: 'Ailerion Light'
+	src: url('/web/moodle/aileron.light.otf') format('otp')
+}
+            
+html, body, h1, h2, h3, h4, a, p, .button-style, strong, span {
+	font-family: 'Ailerion Light', sans-serif;
+}
+    
+.instancename {
+	text-decoration: none;
+        color: black;
+        font-size: 30px;
+}
+    

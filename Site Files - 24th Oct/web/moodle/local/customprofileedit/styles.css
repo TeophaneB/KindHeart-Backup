@@ -1,0 +1,51 @@
+body {
+    background-color: #FFF59D;
+    font-family: 'Comic Sans MS', sans-serif; /* Consider a playful font */
+}
+
+textarea, input[type="text"] {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+textarea:focus, input[type="text"]:focus {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #4DD0E1;
+}
+
+.avatar-container {
+    position: relative;
+}
+
+.avatar-hover-prompt {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+.avatar-container:hover .avatar-hover-prompt {
+    display: block;
+}
+
+.avatar-dropdown {
+    display: none;
+    position: absolute;
+    top: 110px;
+    left: 0;
+    border: 1px solid #ccc;
+    background: white;
+    width: 420px; /* 4 avatars x 100px each + some padding/margin */
+}
+
+.avatar-option {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
